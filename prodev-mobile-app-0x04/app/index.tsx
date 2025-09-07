@@ -31,7 +31,7 @@ export default function Index() {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.buttonSecondary}>
-                  <Text style={styles.buttonSecondaryText}>Sign In</Text>
+                  <Text style={styles.buttonSecondaryText} onPress={() => { "/Signin" }}>Sign In</Text>
                 </TouchableOpacity>
               </View>
               <View style={{ alignItems: "center", paddingVertical: 20 }}>
